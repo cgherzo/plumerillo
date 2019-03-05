@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang= "es">
 <head>
+	<meta charset="UTF-8">
 	<title>Ejemplo de pagina web</title>
 	<link rel="stylesheet" href="..\source\bootstrap\css\bootstrap.css" >
 </head>
@@ -8,58 +9,79 @@
 	<header>
 		<nav class="navbar navbar-light" style="background-color: #ffce0a;">
 			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+			
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="Correo electrónico" placeholder="Correo electrónico" aria-label="Correo electrónico">
+				<input class="form-control mr-sm-2" type="Contraseña" placeholder="Contraseña" aria-label="Contraseña">
+				<button class="btn btn-transparent text-white my-2 my-sm-0" style="background-color: #e6ae20;" type="Iniciar Sesión">Iniciar Sesión</button> 
+			</form>
+		</div>
+	</nav>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Dropdown
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">Action</a>
-							<a class="dropdown-item" href="#">Another action</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="#">Something else here</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-					</li>
-				</ul>
-				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>
-			</div>
-		</nav>
 
-		
-	</header>
+</header>
 
 
 
-	<div class="container">
-		<h1>Titulo de la pagina</h1>
-		<p>Primer parrafo...</p>
-	</div>
-	<div class="container">
-		<img src="img">
-	</div>
-	<div class="container">
-		<video>Video</video>
-	</div>
-	<div class="container">
-		<a href="link"></a>
-	</div>
+<div class="container">
+	<h1>Crear una cuenta</h1>
+</div>
+<div class="container">
+	<img src="img">
+</div>
+<div class="container">
+	<video>Video</video>
+</div>
+<div class="container">
+	<a href="link"></a>
+</div>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-3">
+      <input type="Nombre" class="form-control" id="inputname" placeholder="Nombre" style="background-color: #01abaa;">
+    </div>
+    <div class="form-group col-md-3">
+      <input type="Apellido" class="form-control" id="inputapellido" placeholder="Apellido" style="background-color: #01abaa;">
+    </div>
+  </div>
+  <div class="form-group col-md-5">
+    <input type="doc" class="form-control" id="inputdoc" placeholder="Documento de identidad" style="background-color: #01abaa;>
+  </div>
+  <div class="form-group">
+    <input type="Correo" class="form-control" id="inpucorreo" placeholder="Correo electrónico" style="background-color: #01abaa;>
+  </div>
+  <div class="form-group">
+    <input type="cel" class="form-control" id="inputcel" placeholder="Celular" style="background-color: #01abaa;>
+  </div>
+  <div class="form-group">
+    <input type="cont" class="form-control" id="inputcont" placeholder="Contraseña" style="background-color: #01abaa;>
+  </div>
+  <div class="form-group">
+    <input type="repcont" class="form-control" id="inputrepcont" placeholder="Repetir contraseña" style="background-color: #01abaa;>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-3">
+      <label for="inputfechnac">Fecha de nacimiento</label>
+      <input type="text" class="form-control" id="inputdia" placeholder="Día" style="background-color: #01abaa;>
+    </div>
+    <div class="form-group col-md-3">
+     <input type="text" class="form-control" id="inputmes" placeholder="Mes" style="background-color: #01abaa;> 
+    </div>
+    <div class="form-group col-md-3">
+      <input type="text" class="form-control" id="inputaño" placeholder="Año" style="background-color: #01abaa;>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Acepto las condiciones y políticas del servicio
+      </label>
+    </div>
+  </div>
+  <button class="btn btn-transparent text-white my-2 my-sm-0" style="background-color: #01abaa;" type="Registrarse">Registrarse</button> 
+</form>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

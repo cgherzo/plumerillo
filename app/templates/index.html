@@ -13,7 +13,10 @@
 <body>
 	<header>
 		<nav class="navbar navbar-light nav-bar-own">
-			<a class="navbar-brand" href="#">Navbar</a>
+			<a class="navbar-brand" href="#">
+     <img src="icons\logo\logo.png" width="50" height="50" class="d-inline-block align-top" alt="logo">
+         
+      </a>
 			
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="email" placeholder="Correo electrónico" aria-label="Correo electrónico">
@@ -21,8 +24,11 @@
 				<button class="btn btn-transparent text-white my-2 my-sm-0 btn-nav" type="Iniciar Sesión">Iniciar Sesión</button> 
 			</form>
 
-      <div class="container" align="right">
-        <p>¿Olvidaste tu contraseña?</p>
+      <div class="container" align="left">
+        <p></p>
+         <ul class="nav navbar-nav navbar-left">
+            <p><a href="#">¿Olvisaste tu contraseña?</a></p>
+        </ul>
       </div>
     </nav>
   </header>
@@ -39,32 +45,32 @@
         <div class="form-row">
 
           <div class="form-group col-md-3">
-            <input type="Nombre" class="form-control form-element-color" id="inputname" placeholder="Nombre">
+            <input type="text" class="form-control form-element-color" id="inputname" placeholder="Nombre">
           </div>
 
           <div class="form-group col-md-3">
-            <input type="Apellido" class="form-control form-element-color" id="inputapellido" placeholder="Apellido">
+            <input type="text" class="form-control form-element-color" id="inputapellido" placeholder="Apellido">
           </div>
         </div>
 
-        <div class="form-group col-md-5">
-          <input type="doc" class="form-control form-element-color" id="inputdoc" placeholder="Documento de identidad">
+        <div class="form-group col-md-3">
+          <input type="text" class="form-control form-element-color" id="inputdoc" placeholder="Documento de identidad">
         </div>
 
-        <div class="form-group">
-          <input type="Correo" class="form-control form-element-color" id="inpucorreo" placeholder="Correo electrónico">
+        <div class="form-group col-md-3">
+          <input type="email" class="form-control form-element-color" id="inputcorreo" placeholder="Correo electrónico">
         </div>
 
 
-        <div class="form-group">
+        <div class="form-group col-md-3">
           <input type="cel" class="form-control form-element-color" id="inputcel" placeholder="Celular">
         </div>
         
-        <div class="form-group">
+        <div class="form-group col-md-3">
           <input type="password" class="form-control form-element-color" id="inputcont" placeholder="Contraseña">
         </div>
 
-        <div class="form-group">
+        <div class="form-group col-md-3">
           <input type="password" class="form-control form-element-color" id="inputrepcont" placeholder="Repetir contraseña">
         </div>
 
